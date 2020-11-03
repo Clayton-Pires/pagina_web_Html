@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gama Academy - Contato</title>
+
+
+
+</head>
+
+<body>
+    <table border="0" align="center" width="80%" cellpadding="5" cellspacing="2">
+        <tr>
+            <td><a href="..\html\index.html"><img src="..\imagens\logo.png"></a></td>
+            <td>QUEM SOMOS</td>
+            <td>CURSOS ONLINE</td>
+            <td>GAMA EXPERIENCE</td>
+            <td>PARA EMPRESAS</td>
+            <td>CONTATO</td>
+            <td>CONTEÚDIO</td>
+        </tr>
+
+    </table>
+
+    <h3> Preencha o nosso Formulário de Interesse</h3>
+
+    <form id="formulario_cadastro" method="POST">
+        <fieldset>
+            <legend><b>Dados Necessários</b></legend><br>
+            <label>Nome:</label><input type="text" name="nome" required><br><br>
+            <label>Email:</label><input type="email" name="email" required><br><br>
+            <label>Senha:</label><input type="password" name="senha" required><br><br>
+            <label>Data de Nascimento:</label><input type="date" name="data_nascimento" required><br><br>
+            <label>Genero:</label><br>
+            <input type="radio" name="opcao" value="Feminino" /> Feminino<br />
+            <input type="radio" name="opcao" value="Marculino" /> Marculino<br />
+            <input type="radio" name="opcao" value="Outros" /> Outros<br /><br>
+
+            <label>Escolha qual curo deseja fazer:</label>
+            <select>
+                <option value=""></option>
+                <option value="XML">XML</option>
+                <option value="PHP">PHP</option>
+                <option value="JS">JS</option>
+                <option value="HTML">HTML</option>
+
+            </select> <br><br>
+
+            <label>Defina o período desejado para cursar:</label>
+            <input type="checkbox"  name="op_check" value="manhã"> Manhã
+            <input type="checkbox"  name="op_check" value="tarde"> Tarde
+            <input type="checkbox"  name="op_check" value="noite"> Noite<br><br>
+
+            <label>Mensagem:</label><br>
+            <textarea cols="35" rows="8"></textarea><br><br>
+
+            <label>Anexar Documentos:</label>
+            <input type="file" value="arquivo"><br><br>
+
+
+            <input type="submit" value="Enviar">
+
+        </fieldset>
+    </form>
+</body>
+
+</html>
