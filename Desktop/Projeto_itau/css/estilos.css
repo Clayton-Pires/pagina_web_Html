@@ -1,0 +1,45 @@
+ 
+       p{
+           font-size: 14px;
+           font-weight: bold;
+           font-family: verdana;
+           color:blueviolet;    
+       }
+
+       body{
+           background-color: rgb(231, 222, 203);
+       }
+
+       .menu{
+           font-size: 14px;
+           font-family: Verdana, Geneva, Tahoma, sans-serif;
+           font-weight: bold;
+           color:blue;
+       }
+
+       .lista{
+           font-size: 12px;
+           color:indianred;
+           font-family: georgia;
+            
+        }
+
+        .container{
+            border: 3px solid brown;
+                width:500px;
+        }
+  .div1{
+      background-color: aquamarine;
+  }
+
+  .div2{
+    background-color: blue;
+}
+
+.div3{
+    background-color: yellowgreen;
+}
+
+.div4{
+    background-color: pink;
+}
